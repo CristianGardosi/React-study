@@ -7,7 +7,7 @@ const Product = ({name, image}) => {
     // React.Fragment = Wrapper che sostituisce <div> o altri tag e che non viene inserito nell'html
     <React.Fragment>
         <div className="card">
-            <h2>{name}</h2>
+          <h2>{name}</h2>
           <img className="card-img" src={image} alt={`${image}`}></img> {/*Entrambe le sitassi sono possibili*/}
         </div>
     </React.Fragment>
